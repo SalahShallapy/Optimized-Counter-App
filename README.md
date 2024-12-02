@@ -49,11 +49,13 @@ A React-based counter application designed with performance in mind, utilizing `
 
 ## Key Highlights
 
-- Million.js Integration:
-  Optimized rendering and minimized re-renders with advanced reconciliation techniques.
+1. Million.js Integration:
 
-- React Hooks:
-  State management using `useState`, `useMemo`, and `useCallback.`
+- Optimized rendering and minimized re-renders with advanced reconciliation techniques.
+
+2. React Hooks:
+
+- State management using `useState`, `useMemo`, and `useCallback.`
 
 ## Project Structure
 
