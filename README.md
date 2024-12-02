@@ -4,7 +4,7 @@
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-A React-based counter application designed with performance in mind, utilizing _million.js_ for enhanced rendering. Features include configurable initial counters, real-time prime number checks, and historical change tracking.
+A React-based counter application designed with performance in mind, utilizing `million.js` for enhanced rendering. Features include configurable initial counters, real-time prime number checks, and historical change tracking.
 
 ## Project Overview
 
@@ -15,7 +15,7 @@ A React-based counter application designed with performance in mind, utilizing _
 ## Features
 
 - Configurable Counter: Set the initial counter value dynamically.
-- Performance Optimization: Uses _million.js_ for virtual DOM optimizations.
+- Performance Optimization: Uses `million.js` for virtual DOM optimizations.
 - Prime Number Validation: Detects if the initial count is a prime number.
 - Change History: Tracks all changes made to the counter with clickable history items.
 - Interactive UI: Increment, decrement, and reset counters seamlessly.
@@ -23,25 +23,29 @@ A React-based counter application designed with performance in mind, utilizing _
 ## How It Works
 
 1. Dynamic Counter Configuration:
-   • Users can configure the counter's starting value through the _ConfigureCounter_ component.
-   • This value is then passed to the Counter component via state lifting.
+
+   - Users can configure the counter's starting value through the `ConfigureCounter` component.
+   - This value is then passed to the Counter component via state lifting.
 
 2. Counter Logic:
-   •The Counter component tracks changes using an array of counter adjustments rather than a single value.
-   •Each increment or decrement is stored as a separate entry, allowing for detailed history tracking.
-   •Prime number checking is optimized using _useMemo_ to prevent redundant calculations.
+
+   - The Counter component tracks changes using an array of counter adjustments rather than a single value.
+   - Each increment or decrement is stored as a separate entry, allowing for detailed history tracking.
+   - Prime number checking is optimized using `useMemo` to prevent redundant calculations.
 
 3. History Tracking:
-   •The CounterHistory component displays a list of all counter changes.
-   •Each history item is interactive, and clicking an item toggles its selection state.
+
+   - The CounterHistory component displays a list of all counter changes.
+   - Each history item is interactive, and clicking an item toggles its selection state.
 
 4. Component Rendering Optimization:
-   •React.memo ensures unnecessary re-renders are avoided for components like Counter.
-   •_useCallback_ and _useMemo_ are used extensively to optimize functions and derived state.
+
+   - React.memo ensures unnecessary re-renders are avoided for components like Counter.
+   - `useCallback` and `useMemo` are used extensively to optimize functions and derived state.
 
 5. Million.js Integration:
-   •_Million.js_ is used for virtual DOM optimizations, significantly boosting performance when updating the DOM.
-   •This ensures a smoother user experience, even for more complex operations.
+   - `Million.js` is used for virtual DOM optimizations, significantly boosting performance when updating the DOM.
+   - This ensures a smoother user experience, even for more complex operations.
 
 ## Key Highlights
 
@@ -49,7 +53,7 @@ A React-based counter application designed with performance in mind, utilizing _
   Optimized rendering and minimized re-renders with advanced reconciliation techniques.
 
 - React Hooks:
-  State management using _useState_, _useMemo_, and _useCallback._
+  State management using `useState`, `useMemo`, and `useCallback.`
 
 ## Project Structure
 
