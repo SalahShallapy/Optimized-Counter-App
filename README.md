@@ -23,8 +23,8 @@ A React-based counter application designed with performance in mind, utilizing _
 ## How It Works
 
 1. Dynamic Counter Configuration:
-   •Users can configure the counter's starting value through the _ConfigureCounter_ component.
-   •This value is then passed to the Counter component via state lifting.
+   • Users can configure the counter's starting value through the _ConfigureCounter_ component.
+   • This value is then passed to the Counter component via state lifting.
 
 2. Counter Logic:
    •The Counter component tracks changes using an array of counter adjustments rather than a single value.
