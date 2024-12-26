@@ -16,7 +16,7 @@
   <p align="center">
     <a href="https://optimized-counter-app.web.app/">View Demo</a>
     ·
-    <a href="https://github.com/SalahShallapy/QuizFusion/issues">Report Bug</a>
+    <a href="https://github.com/SalahShallapy/Optimized-Counter-App/issues">Report Bug</a>
   </p>
 </div>
 
