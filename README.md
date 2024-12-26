@@ -1,12 +1,28 @@
-# Optimized-Counter-App
+<div id="top"></div>
 
 [![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)](https://react.dev/)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://optimized-counter-app.web.app/">
+    <img src="./public/logo.png" alt="Logo" height="80"  >
+  </a>
+  <h1 align="center">Optimized-Counter-App</h1>
+
+  <p align="center">
+    <a href="https://optimized-counter-app.web.app/">View Demo</a>
+    ·
+    <a href="https://github.com/SalahShallapy/QuizFusion/issues">Report Bug</a>
+  </p>
+</div>
 
 A React-based counter application designed with performance in mind, utilizing `million.js` for enhanced rendering. Features include configurable initial counters, real-time prime number checks, and historical change tracking.
 
-## Project Overview
+## Project Overview~
 
 ### overview
 
